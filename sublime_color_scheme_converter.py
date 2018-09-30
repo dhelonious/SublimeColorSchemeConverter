@@ -197,7 +197,8 @@ class ConvertSublimeColorSchemeCommand(sublime_plugin.TextCommand):
 
     def write_buffer(self, edit):
         error = False
-        output_name = os.path.splitext(self.filename)[0]+".tmTheme"
+        output_name = os.path.splitext(os.path.basename(self.filename))[0] \
+                      + ".tmTheme"
         try:
             self.output_view = self.view.window().new_file()
             self.output_view.set_encoding("UTF-8")
