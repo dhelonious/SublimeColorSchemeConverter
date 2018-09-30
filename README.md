@@ -7,13 +7,14 @@ Simple Sublime Text 3 plugin to convert the `sublime-color-scheme` json format t
 
 Supported features (c.f. [https://www.sublimetext.com/docs/3/color_schemes.html]):
 * Variables
-* 6-digit Hex RGB and 8-digit Hex RGBA
-* RGB, RGBA, HSL, and HSLA functional notations
+* 6-digit **Hex RGB** and 8-digit **Hex RGBA**
+* **RGB**, **RGBA**, **HSL**, and **HSLA** functional notations
 * CSS color names
-* alpha() adjuster
+* **alpha() adjuster**
 * Replace underscore by uppercase letters
+* Scopes in **hashed syntax highlighting** is recognized and converted to lists
 
-The plugin tries to replace all patterns, where a color is recognized. Therefore `color(#000000`
+The plugin tries to replace all patterns, where any color is recognized. Therefore `color(#000000 blend(#ffffff 50%))` is replaced by `#000000`, since the blend() adjuster syntax is not supported.
 
 Example:
 --------
