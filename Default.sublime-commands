@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "SublimeColorSchemeConverter: Convert to tmTheme",
+        "command": "convert_sublime_color_scheme"
+    }
+]
