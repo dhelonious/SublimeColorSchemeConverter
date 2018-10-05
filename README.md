@@ -16,6 +16,11 @@ Supported features (c.f. [https://www.sublimetext.com/docs/3/color_schemes.html]
 
 The plugin tries to replace all patterns, where any color is recognized. Therefore `color(#000000 blend(#ffffff 50%))` is replaced by `#000000`, since the blend() adjuster syntax is not supported.
 
+Caveats:
+--------
+
+The `sublime-color-scheme` must not contain comments (see [json specs](http://www.json.org/)).
+
 Example:
 --------
 
