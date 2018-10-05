@@ -5,7 +5,7 @@ Sublime Color Scheme Converter
 
 Simple Sublime Text 3 plugin to convert the `sublime-color-scheme` json format to `tmTheme` plist format. While the configuration of json files is far more convenient, some plugins rely on a `tmTheme`-formatted color scheme.
 
-Supported features (c.f. [https://www.sublimetext.com/docs/3/color_schemes.html]):
+Supported features (see [documentation](https://www.sublimetext.com/docs/3/color_schemes.html)):
 * Variables
 * 6-digit **Hex RGB** and 8-digit **Hex RGBA**
 * **RGB**, **RGBA**, **HSL**, and **HSLA** functional notations
